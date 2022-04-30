@@ -1,0 +1,61 @@
+/* here Override All the Classes  */
+
+.ant-layout-header,
+.ant-menu,
+.ant-drawer-header,
+.ant-drawer-body,
+.ant-drawer .ant-drawer-content {
+  background: #fff !important;
+}
+
+.ant-menu-horizontal {
+  border-bottom: 0;
+}
+
+.ant-menu-title-content {
+  font-weight: bold;
+}
+
+.logo__typo__child,
+.header__drawer__close__btn,
+.main__header__open__menu__btn,
+.chatting__app__heading__primary,
+.chatting__app__text__primary {
+  color: #67416d !important;
+}
+
+.logo__typo__parent,
+.header__drawer__link,
+.header__menu__link h3,
+.header__menu__link h4,
+.header__menu__link h5,
+.header__menu__link h2,
+.chatting__app__heading__secondary ,
+.chatting__app__text__secondary{
+  color: #111 !important;
+}
+
+.logo__typo__parent,
+.header__drawer__link,
+.header__menu__link h3,
+.header__menu__link h4,
+.header__menu__link h5,
+.header__menu__link h2,
+.logo__typo__child ,
+.chatting__app__heading__primary,
+.chatting__app__heading__secondary,
+.chatting__app__text__secondary,
+.chatting__app__text__primary {
+  font-family: cursive;
+}
+
+.header__menu__link:hover h5 {
+  border-bottom: 3px solid #67416d;
+  color: #67416d !important;
+}
+
+.header__drawer__link,
+.header__layout {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.496);
+  border-bottom: 1px solid #67416d48;
+}

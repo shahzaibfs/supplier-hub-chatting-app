@@ -1,0 +1,49 @@
+.header__layout {
+  height: 80px !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.ant-layout-header {
+  padding: 0 16px !important;
+}
+
+.header__drawer__link {
+  cursor: pointer;
+  position: relative;
+  transition: 200ms ease-in;
+  text-transform: capitalize;
+  padding-bottom: 8px;
+  width: 100% !important;
+}
+
+.header__menu__link {
+  padding: 10px 10px;
+  transition: 200ms ease-in;
+}
+
+.logo__typo__parent {
+  margin: 0 !important;
+  font-weight: Bolder;
+}
+
+.logo__typo__child {
+}
+
+.header__menu__link h3,
+.header__menu__link h4,
+.header__menu__link h5,
+.header__menu__link h2 {
+  font-weight: 500 !important;
+  transition: 100ms ease-in;
+  padding: 10px 0;
+  margin: 0 10px !important;
+  text-transform: uppercase;
+}
+
+.header__drawer__link:hover {
+  letter-spacing: 3px !important;
+}
