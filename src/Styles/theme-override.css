@@ -8,6 +8,9 @@
   background: #fff !important;
 }
 
+.button__ghost:hover {
+  background: #67416d !important;
+}
 .ant-menu-horizontal {
   border-bottom: 0;
 }
@@ -19,20 +22,13 @@
 .logo__typo__child,
 .header__drawer__close__btn,
 .main__header__open__menu__btn,
-.chatting__app__heading__primary,
-.chatting__app__text__primary {
+.txt__primary,
+.button__ghost {
   color: #67416d !important;
 }
 
-.logo__typo__parent,
-.header__drawer__link,
-.header__menu__link h3,
-.header__menu__link h4,
-.header__menu__link h5,
-.header__menu__link h2,
-.chatting__app__heading__secondary ,
-.chatting__app__text__secondary{
-  color: #111 !important;
+.txt__white {
+  color: #fff !important ;
 }
 
 .logo__typo__parent,
@@ -41,12 +37,30 @@
 .header__menu__link h4,
 .header__menu__link h5,
 .header__menu__link h2,
-.logo__typo__child ,
-.chatting__app__heading__primary,
-.chatting__app__heading__secondary,
-.chatting__app__text__secondary,
-.chatting__app__text__primary {
+.txt__secondary {
+  color: #111 !important;
+}
+
+.button__ghost:hover {
+  color: #fff !important;
+}
+
+.logo__typo__parent,
+.header__drawer__link,
+.header__menu__link h3,
+.header__menu__link h4,
+.header__menu__link h5,
+.header__menu__link h2,
+.logo__typo__child,
+.heading__primary,
+.txt__primary,
+.txt__secondary,
+.txt__white {
   font-family: cursive;
+}
+
+.button__ghost {
+  border: 1px solid #67416d !important;
 }
 
 .header__menu__link:hover h5 {
@@ -58,4 +72,10 @@
 .header__layout {
   border-bottom: 1px solid rgba(255, 255, 255, 0.496);
   border-bottom: 1px solid #67416d48;
+}
+
+/* text Override */
+
+.txt__center {
+  text-align: center;
 }

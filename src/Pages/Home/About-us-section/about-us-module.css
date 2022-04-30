@@ -1,0 +1,39 @@
+/* common css */
+.aboutUs__common__section {
+  height: 100%;
+  background: transparent !important;
+  position: relative;
+}
+.aboutUs__common__card {
+  min-height: 500px !important;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  overflow: hidden;
+}
+
+.aboutUs__common__card:nth-child(even) {
+  background: #67416dd5;
+}
+
+.aboutUs__common__card:nth-child(odd) {
+  background: #67416d07;
+}
+
+/* svgs */
+
+.aboutUs__svg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 500px;
+  max-width: 500px;
+}
+
+.aboutUs__imageWrapper .ant-image{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+}

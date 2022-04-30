@@ -29,7 +29,7 @@ const HeaderMenu: React.FC = () => {
         {menuLinks.map(((menuLink, ix) => (
 
           <Link className='header__menu__link' to="#about-us">
-            <Title  level={5 } style={{ margin: 0 }}>
+            <Title className='txt-secondary' level={5 } style={{ margin: 0 }}>
               {menuLink.name}
             </Title>
           </Link>

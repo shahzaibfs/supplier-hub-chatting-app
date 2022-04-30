@@ -8,11 +8,10 @@ import BannerSection from './Banner-section/banner-section'
 const Spacing = styled.div`
   margin-top: 80px;
 `
-
 const Main = styled.main`
-  min-height : 100vh ;
-  height : max-content;
-  width :100%;
+  min-height: 100vh;
+  height: max-content;
+  width: 100%;
 `
 
 const HomePage = (props: any) => {
@@ -28,17 +27,11 @@ const HomePage = (props: any) => {
       <MainHeader />
       <Spacing />
       <Main>
-
-        <Space direction='vertical' size={'large'} style={{ width: "100%" }} >
+        <Space direction="vertical" size={'large'} style={{ width: '100%' }}>
           <BannerSection />
           <AboutUs />
-          <AboutUs />
-          <AboutUs />
         </Space>
-
       </Main>
-
-
     </>
   )
 }

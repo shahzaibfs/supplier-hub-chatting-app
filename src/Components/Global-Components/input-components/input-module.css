@@ -1,0 +1,15 @@
+.button__parent {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.button__icon {
+  margin-right: 8px;
+}
+.button__primary {
+}
+.button__secondary {
+}
+.button__ghost {
+  background: transparent !important;
+}

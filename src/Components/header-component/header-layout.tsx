@@ -5,7 +5,10 @@ const { Header } = Layout
 
 const HeaderLayout: React.FC<headerProps> = ({ children }) => {
   return (
-    <Header className='header__layout'>
+    <Header
+  
+      className='header__layout'
+    >
       {children}
     </Header>
   )

@@ -37,7 +37,7 @@
 .header__menu__link h4,
 .header__menu__link h5,
 .header__menu__link h2 {
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   transition: 100ms ease-in;
   padding: 10px 0;
   margin: 0 10px !important;
